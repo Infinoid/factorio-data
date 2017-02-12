@@ -10,7 +10,16 @@ stone: 1 burner drill
 copper: 1 burner drill, 1 stone furnace
 coal: 4 burner drills
 
-produce 10 steam engines, 14 burner inserters, 14 boilers, 4 pipes to ground, 10 pipes, 4 electric mining drills, 1 offshore pump, 50 transport belts, 16 small electric poles
+produce
+  10 steam engines
+  14 burner inserters
+  14 boilers
+  4 pipes to ground
+  10 pipes
+  4 electric mining drills
+  1 offshore pump
+  50 transport belts
+  16 small electric poles
 
 *** power phase
 coal: 6 electric mining drills
