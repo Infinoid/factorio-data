@@ -1,0 +1,3506 @@
+[ {
+  "effects": [ {
+    "recipe": "steel-plate",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "steel-chest",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "steel-axe",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/steel-processing.png",
+  "name": "steel-processing",
+  "order": "c-a",
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 5
+  }
+}, {
+  "effects": [ {
+    "recipe": "submachine-gun",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "shotgun",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "shotgun-shell",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/military.png",
+  "name": "military",
+  "order": "e-a-a",
+  "type": "technology",
+  "unit": {
+    "count": 10,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "piercing-rounds-magazine",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "grenade",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/military.png",
+  "name": "military-2",
+  "order": "e-a-b",
+  "prerequisites": [ "military", "steel-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 20,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "poison-capsule",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "slowdown-capsule",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "combat-shotgun",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/military.png",
+  "name": "military-3",
+  "order": "e-a-c",
+  "prerequisites": [ "military-2", "laser", "rocketry" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 2 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "cluster-grenade",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/cluster-grenade.png",
+  "name": "cluster-grenade",
+  "order": "e-a-d",
+  "prerequisites": [ "military-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 2 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 45
+  }
+}, {
+  "effects": [ {
+    "ammo_category": "grenade",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/grenade-damage.png",
+  "name": "grenade-damage-1",
+  "order": "e-n-a",
+  "prerequisites": [ "military-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 2 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "grenade",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/grenade-damage.png",
+  "name": "grenade-damage-2",
+  "order": "e-n-a",
+  "prerequisites": [ "grenade-damage-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 45
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "grenade",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/grenade-damage.png",
+  "name": "grenade-damage-3",
+  "order": "e-n-a",
+  "prerequisites": [ "grenade-damage-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 45
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "grenade",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/grenade-damage.png",
+  "name": "grenade-damage-4",
+  "order": "e-n-a",
+  "prerequisites": [ "grenade-damage-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 45
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "grenade",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/grenade-damage.png",
+  "name": "grenade-damage-5",
+  "order": "e-n-a",
+  "prerequisites": [ "grenade-damage-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 600,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 45
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "grenade",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/grenade-damage.png",
+  "name": "grenade-damage-6",
+  "order": "e-n-a",
+  "prerequisites": [ "grenade-damage-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 1000,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 45
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "piercing-shotgun-shell",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/military.png",
+  "name": "military-4",
+  "order": "e-a-e",
+  "prerequisites": [ "military-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 2 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 45
+  }
+}, {
+  "effects": [ {
+    "recipe": "assembling-machine-1",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "long-handed-inserter",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/automation.png",
+  "name": "automation",
+  "order": "a-b-a",
+  "type": "technology",
+  "unit": {
+    "count": 10,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 10
+  }
+}, {
+  "effects": [ {
+    "recipe": "filter-inserter",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/electronics.png",
+  "name": "electronics",
+  "order": "a-d-a",
+  "prerequisites": [ "automation" ],
+  "type": "technology",
+  "unit": {
+    "count": 30,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "assembling-machine-2",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/automation.png",
+  "name": "automation-2",
+  "order": "a-b-b",
+  "prerequisites": [ "electronics" ],
+  "type": "technology",
+  "unit": {
+    "count": 40,
+    "ingredients": [ [ "science-pack-1", 2 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "assembling-machine-3",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/automation.png",
+  "name": "automation-3",
+  "order": "a-b-c",
+  "prerequisites": [ "speed-module", "automation-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  }
+}, {
+  "effects": [ {
+    "recipe": "explosives",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/explosives.png",
+  "name": "explosives",
+  "order": "a-e-d",
+  "prerequisites": [ "sulfur-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "icon": "__base__/graphics/technology/flammables.png",
+  "name": "flammables",
+  "order": "e-c-a",
+  "prerequisites": [ "oil-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 60,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "land-mine",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/land-mine.png",
+  "name": "land-mine",
+  "order": "e-e",
+  "prerequisites": [ "explosives", "military-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 20,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "flame-thrower",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "flame-thrower-ammo",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "flamethrower-turret",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/flame-thrower.png",
+  "name": "flame-thrower",
+  "order": "e-c-b",
+  "prerequisites": [ "flammables", "military-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 20,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "red-wire",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "green-wire",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "arithmetic-combinator",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "decider-combinator",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "constant-combinator",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "power-switch",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/circuit-network.png",
+  "name": "circuit-network",
+  "order": "a-d-d",
+  "prerequisites": [ "electronics" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "advanced-circuit",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "processing-unit",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/advanced-electronics.png",
+  "name": "advanced-electronics",
+  "order": "a-d-b",
+  "prerequisites": [ "electronics", "plastics" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "icon": "__base__/graphics/technology/advanced-electronics-2.png",
+  "name": "advanced-electronics-2",
+  "order": "a-d-c",
+  "prerequisites": [ "advanced-electronics" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "underground-belt",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "fast-inserter",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "splitter",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/logistics.png",
+  "name": "logistics",
+  "order": "a-f-a",
+  "type": "technology",
+  "unit": {
+    "count": 20,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "rail",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "diesel-locomotive",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/railway.png",
+  "name": "railway",
+  "order": "c-g-a",
+  "prerequisites": [ "logistics-2", "engine" ],
+  "type": "technology",
+  "unit": {
+    "count": 70,
+    "ingredients": [ [ "science-pack-1", 2 ], [ "science-pack-2", 1 ] ],
+    "time": 20
+  }
+}, {
+  "effects": [ {
+    "recipe": "train-stop",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "cargo-wagon",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/automated-rail-transportation.png",
+  "name": "automated-rail-transportation",
+  "order": "c-g-b",
+  "prerequisites": [ "railway" ],
+  "type": "technology",
+  "unit": {
+    "count": 70,
+    "ingredients": [ [ "science-pack-1", 2 ], [ "science-pack-2", 1 ] ],
+    "time": 20
+  }
+}, {
+  "effects": [ {
+    "recipe": "rail-signal",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "rail-chain-signal",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/rail-signals.png",
+  "name": "rail-signals",
+  "order": "c-g-c",
+  "prerequisites": [ "automated-rail-transportation" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 2 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "car",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/automobilism.png",
+  "name": "automobilism",
+  "order": "e-b",
+  "prerequisites": [ "logistics-2", "engine" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 2 ], [ "science-pack-2", 1 ] ],
+    "time": 20
+  }
+}, {
+  "effects": [ {
+    "recipe": "tank",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "cannon-shell",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "explosive-cannon-shell",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/tanks.png",
+  "name": "tanks",
+  "order": "e-c-c",
+  "prerequisites": [ "automobilism", "military-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 40,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 20
+  }
+}, {
+  "effects": [ {
+    "recipe": "fast-transport-belt",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "fast-underground-belt",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "fast-splitter",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/logistics.png",
+  "name": "logistics-2",
+  "order": "a-f-b",
+  "prerequisites": [ "logistics" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "express-transport-belt",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "express-underground-belt",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "express-splitter",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/logistics.png",
+  "name": "logistics-3",
+  "order": "a-f-c",
+  "prerequisites": [ "logistics-2", "automation-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "small-lamp",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/optics.png",
+  "name": "optics",
+  "order": "a-h-a",
+  "type": "technology",
+  "unit": {
+    "count": 10,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "solar-panel",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/solar-energy.png",
+  "name": "solar-energy",
+  "order": "a-h-c",
+  "prerequisites": [ "optics", "electronics", "steel-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "icon": "__base__/graphics/technology/laser.png",
+  "name": "laser",
+  "order": "a-h-b",
+  "prerequisites": [ "optics", "advanced-electronics" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "rocket-launcher",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "rocket",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/rocketry.png",
+  "name": "rocketry",
+  "order": "e-g",
+  "prerequisites": [ "electronics", "flammables", "explosives" ],
+  "type": "technology",
+  "unit": {
+    "count": 120,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "explosive-rocket",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/explosive-rocketry.png",
+  "name": "explosive-rocketry",
+  "order": "e-h",
+  "prerequisites": [ "rocketry" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 20
+  }
+}, {
+  "effects": [ {
+    "recipe": "light-armor",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/armor-making.png",
+  "name": "armor-making",
+  "order": "g-a-a",
+  "type": "technology",
+  "unit": {
+    "count": 10,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 5
+  }
+}, {
+  "effects": [ {
+    "recipe": "heavy-armor",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/armor-making.png",
+  "localised_description": [ "technology-description.armor-making-2" ],
+  "name": "armor-making-2",
+  "order": "g-a-b",
+  "prerequisites": [ "armor-making", "steel-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 30,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "modular-armor",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/armor-making.png",
+  "localised_description": [ "technology-description.armor-making-3" ],
+  "localised_name": [ "technology-name.armor-making-3" ],
+  "name": "armor-making-3",
+  "order": "g-a-c",
+  "prerequisites": [ "armor-making-2", "speed-module" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "power-armor",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/power-armor.png",
+  "name": "power-armor",
+  "order": "g-c-a",
+  "prerequisites": [ "armor-making-3", "electric-engine" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "power-armor-mk2",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/power-armor-mk2.png",
+  "localised_description": [ "technology-description.power-armor-2" ],
+  "name": "power-armor-2",
+  "order": "g-c-b",
+  "prerequisites": [ "power-armor", "alien-technology", "speed-module-3", "effectivity-module-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 3 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "gun-turret",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/turrets.png",
+  "name": "turrets",
+  "order": "a-j-a",
+  "type": "technology",
+  "unit": {
+    "count": 10,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 10
+  }
+}, {
+  "effects": [ {
+    "recipe": "laser-turret",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turrets.png",
+  "name": "laser-turrets",
+  "order": "a-j-b",
+  "prerequisites": [ "turrets", "laser", "battery" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "stone-wall",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/stone-walls.png",
+  "name": "stone-walls",
+  "order": "a-k-a",
+  "type": "technology",
+  "unit": {
+    "count": 10,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 10
+  }
+}, {
+  "effects": [ {
+    "recipe": "gate",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/gates.png",
+  "name": "gates",
+  "order": "a-l-a",
+  "prerequisites": [ "stone-walls", "military-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "icon": "__base__/graphics/technology/flying.png",
+  "name": "flying",
+  "order": "c-h",
+  "prerequisites": [ "electric-engine" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "flying-robot-frame",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/robotics.png",
+  "name": "robotics",
+  "order": "c-i",
+  "prerequisites": [ "advanced-electronics-2", "electric-engine", "battery" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "alien-science-pack",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/alien-technology.png",
+  "name": "alien-technology",
+  "order": "e-f",
+  "prerequisites": [ "rocketry" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "rocket-silo",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "low-density-structure",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "rocket-fuel",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "rocket-control-unit",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "rocket-part",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "satellite",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-silo.png",
+  "name": "rocket-silo",
+  "order": "k-a",
+  "prerequisites": [ "advanced-electronics-2", "rocket-speed-5", "speed-module-3", "productivity-module-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 1000,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  }
+}, {
+  "effects": [ {
+    "modifier": 0.2,
+    "type": "laboratory-speed"
+  } ],
+  "icon": "__base__/graphics/technology/research-speed.png",
+  "name": "research-speed-1",
+  "order": "c-m-a",
+  "prerequisites": [ "electronics" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 0.3,
+    "type": "laboratory-speed"
+  } ],
+  "icon": "__base__/graphics/technology/research-speed.png",
+  "name": "research-speed-2",
+  "order": "c-m-b",
+  "prerequisites": [ "research-speed-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 0.4,
+    "type": "laboratory-speed"
+  } ],
+  "icon": "__base__/graphics/technology/research-speed.png",
+  "name": "research-speed-3",
+  "order": "c-m-c",
+  "prerequisites": [ "research-speed-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 0.5,
+    "type": "laboratory-speed"
+  } ],
+  "icon": "__base__/graphics/technology/research-speed.png",
+  "name": "research-speed-4",
+  "order": "c-m-d",
+  "prerequisites": [ "research-speed-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 500,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "medium-electric-pole",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "big-electric-pole",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/electric-energy-distribution.png",
+  "name": "electric-energy-distribution-1",
+  "order": "c-e-b",
+  "prerequisites": [ "electronics", "steel-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 120,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "substation",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/electric-energy-distribution.png",
+  "name": "electric-energy-distribution-2",
+  "order": "c-e-c",
+  "prerequisites": [ "electric-energy-distribution-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 45
+  }
+}, {
+  "effects": [ {
+    "recipe": "accumulator",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/electric-energy-acumulators.png",
+  "localised_name": [ "technology-name.electric-energy-accumulators-1" ],
+  "name": "electric-energy-accumulators-1",
+  "order": "c-e-a",
+  "prerequisites": [ "electric-energy-distribution-1", "battery" ],
+  "type": "technology",
+  "unit": {
+    "count": 120,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "steel-furnace",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/advanced-material-processing.png",
+  "name": "advanced-material-processing",
+  "order": "c-c-a",
+  "prerequisites": [ "steel-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 75,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "electric-furnace",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/advanced-material-processing.png",
+  "name": "advanced-material-processing-2",
+  "order": "c-c-b",
+  "prerequisites": [ "advanced-material-processing", "advanced-electronics" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "concrete",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "hazard-concrete",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/concrete.png",
+  "name": "concrete",
+  "order": "c-c-c",
+  "prerequisites": [ "advanced-material-processing-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "beacon",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/effect-transmission.png",
+  "name": "effect-transmission",
+  "order": "i-i",
+  "prerequisites": [ "modules", "advanced-electronics-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 75,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "modifier": 1,
+    "type": "num-quick-bars"
+  } ],
+  "icon": "__base__/graphics/technology/toolbelt.png",
+  "name": "toolbelt",
+  "order": "c-k-m",
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "engine-unit",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/engine.png",
+  "name": "engine",
+  "order": "b-a",
+  "prerequisites": [ "steel-processing", "automation-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "electric-engine-unit",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/electric-engine.png",
+  "name": "electric-engine",
+  "order": "b-b",
+  "prerequisites": [ "engine", "advanced-electronics" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 25
+  }
+}, {
+  "effects": [ {
+    "recipe": "battery",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "science-pack-3",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/battery.png",
+  "name": "battery",
+  "order": "b-c",
+  "prerequisites": [ "sulfur-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 25
+  }
+}, {
+  "effects": [ {
+    "recipe": "landfill",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/landfill.png",
+  "name": "landfill",
+  "order": "b-d",
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 25
+  }
+}, {
+  "effects": [ {
+    "recipe": "roboport",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "logistic-chest-passive-provider",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "logistic-chest-storage",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "construction-robot",
+    "type": "unlock-recipe"
+  }, {
+    "modifier": 108000,
+    "type": "ghost-time-to-live"
+  } ],
+  "icon": "__base__/graphics/technology/construction-robotics.png",
+  "name": "construction-robotics",
+  "order": "c-k-a",
+  "prerequisites": [ "robotics", "flying" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "blueprint",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "blueprint-book",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "deconstruction-planner",
+    "type": "unlock-recipe"
+  }, {
+    "modifier": 108000,
+    "type": "ghost-time-to-live"
+  } ],
+  "icon": "__base__/graphics/technology/automated-construction.png",
+  "name": "automated-construction",
+  "order": "c-k-b",
+  "prerequisites": [ "construction-robotics" ],
+  "type": "technology",
+  "unit": {
+    "count": 75,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "roboport",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "logistic-chest-passive-provider",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "logistic-robot",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/logistic-robotics.png",
+  "name": "logistic-robotics",
+  "order": "c-k-c",
+  "prerequisites": [ "robotics", "flying" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "logistic-chest-active-provider",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "logistic-chest-requester",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "logistic-chest-storage",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/logistic-system.png",
+  "name": "logistic-system",
+  "order": "c-k-d",
+  "prerequisites": [ "logistic-robotics" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "modifier": "0.35",
+    "type": "worker-robot-speed"
+  } ],
+  "icon": "__base__/graphics/technology/worker-robots-speed.png",
+  "name": "worker-robots-speed-1",
+  "order": "c-k-f-a",
+  "prerequisites": [ "robotics" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "0.4",
+    "type": "worker-robot-speed"
+  } ],
+  "icon": "__base__/graphics/technology/worker-robots-speed.png",
+  "name": "worker-robots-speed-2",
+  "order": "c-k-f-b",
+  "prerequisites": [ "worker-robots-speed-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "0.45",
+    "type": "worker-robot-speed"
+  } ],
+  "icon": "__base__/graphics/technology/worker-robots-speed.png",
+  "name": "worker-robots-speed-3",
+  "order": "c-k-f-c",
+  "prerequisites": [ "worker-robots-speed-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "0.55",
+    "type": "worker-robot-speed"
+  } ],
+  "icon": "__base__/graphics/technology/worker-robots-speed.png",
+  "name": "worker-robots-speed-4",
+  "order": "c-k-f-d",
+  "prerequisites": [ "worker-robots-speed-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "0.65",
+    "type": "worker-robot-speed"
+  } ],
+  "icon": "__base__/graphics/technology/worker-robots-speed.png",
+  "name": "worker-robots-speed-5",
+  "order": "c-k-f-e",
+  "prerequisites": [ "worker-robots-speed-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 500,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "1",
+    "type": "worker-robot-storage"
+  } ],
+  "icon": "__base__/graphics/technology/worker-robots-storage.png",
+  "name": "worker-robots-storage-1",
+  "order": "c-k-g-a",
+  "prerequisites": [ "robotics" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "1",
+    "type": "worker-robot-storage"
+  } ],
+  "icon": "__base__/graphics/technology/worker-robots-storage.png",
+  "name": "worker-robots-storage-2",
+  "order": "c-k-g-b",
+  "prerequisites": [ "worker-robots-storage-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "1",
+    "type": "worker-robot-storage"
+  } ],
+  "icon": "__base__/graphics/technology/worker-robots-storage.png",
+  "name": "worker-robots-storage-3",
+  "order": "c-k-g-c",
+  "prerequisites": [ "worker-robots-storage-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 450,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "character-logistic-slots"
+  } ],
+  "icon": "__base__/graphics/technology/character-logistic-slots.png",
+  "name": "character-logistic-slots-1",
+  "order": "c-k-e-a",
+  "prerequisites": [ "logistic-robotics" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "character-logistic-slots"
+  } ],
+  "icon": "__base__/graphics/technology/character-logistic-slots.png",
+  "name": "character-logistic-slots-2",
+  "order": "c-k-e-b",
+  "prerequisites": [ "character-logistic-slots-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "character-logistic-slots"
+  } ],
+  "icon": "__base__/graphics/technology/character-logistic-slots.png",
+  "name": "character-logistic-slots-3",
+  "order": "c-k-e-c",
+  "prerequisites": [ "character-logistic-slots-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "character-logistic-slots"
+  } ],
+  "icon": "__base__/graphics/technology/character-logistic-slots.png",
+  "name": "character-logistic-slots-4",
+  "order": "c-k-e-d",
+  "prerequisites": [ "character-logistic-slots-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "character-logistic-slots"
+  } ],
+  "icon": "__base__/graphics/technology/character-logistic-slots.png",
+  "name": "character-logistic-slots-5",
+  "order": "c-k-e-e",
+  "prerequisites": [ "character-logistic-slots-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 500,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "character-logistic-slots"
+  } ],
+  "icon": "__base__/graphics/technology/character-logistic-slots.png",
+  "name": "character-logistic-slots-6",
+  "order": "c-k-e-f",
+  "prerequisites": [ "character-logistic-slots-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 1000,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "character-logistic-trash-slots"
+  }, {
+    "recipe": "logistic-chest-storage",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/character-logistic-trash-slots.png",
+  "name": "character-logistic-trash-slots-1",
+  "order": "c-k-f-a",
+  "prerequisites": [ "logistic-robotics" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "character-logistic-trash-slots"
+  } ],
+  "icon": "__base__/graphics/technology/character-logistic-trash-slots.png",
+  "name": "character-logistic-trash-slots-2",
+  "order": "c-k-f-b",
+  "prerequisites": [ "character-logistic-trash-slots-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": true,
+    "type": "auto-character-logistic-trash-slots"
+  } ],
+  "icon": "__base__/graphics/technology/character-auto-logistic-trash-slots.png",
+  "name": "auto-character-logistic-trash-slots",
+  "order": "c-k-f-c",
+  "prerequisites": [ "character-logistic-trash-slots-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.1",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-damage.png",
+  "name": "shotgun-shell-damage-1",
+  "order": "e-n-a",
+  "prerequisites": [ "military" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.1",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-damage.png",
+  "name": "shotgun-shell-damage-2",
+  "order": "e-n-b",
+  "prerequisites": [ "shotgun-shell-damage-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-damage.png",
+  "name": "shotgun-shell-damage-3",
+  "order": "e-n-c",
+  "prerequisites": [ "shotgun-shell-damage-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-damage.png",
+  "name": "shotgun-shell-damage-4",
+  "order": "e-n-d",
+  "prerequisites": [ "shotgun-shell-damage-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-damage.png",
+  "name": "shotgun-shell-damage-5",
+  "order": "e-n-e",
+  "prerequisites": [ "shotgun-shell-damage-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.4",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-damage.png",
+  "name": "shotgun-shell-damage-6",
+  "order": "e-n-f",
+  "prerequisites": [ "shotgun-shell-damage-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.2",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-speed.png",
+  "name": "shotgun-shell-speed-1",
+  "order": "e-n-g",
+  "prerequisites": [ "military" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.2",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-speed.png",
+  "name": "shotgun-shell-speed-2",
+  "order": "e-n-h",
+  "prerequisites": [ "shotgun-shell-speed-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-speed.png",
+  "name": "shotgun-shell-speed-3",
+  "order": "e-n-i",
+  "prerequisites": [ "shotgun-shell-speed-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-speed.png",
+  "name": "shotgun-shell-speed-4",
+  "order": "e-n-j",
+  "prerequisites": [ "shotgun-shell-speed-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-speed.png",
+  "name": "shotgun-shell-speed-5",
+  "order": "e-n-k",
+  "prerequisites": [ "shotgun-shell-speed-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "shotgun-shell",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/shotgun-shell-speed.png",
+  "name": "shotgun-shell-speed-6",
+  "order": "e-n-l",
+  "prerequisites": [ "shotgun-shell-speed-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.1",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-damage.png",
+  "name": "laser-turret-damage-1",
+  "order": "e-n-a",
+  "prerequisites": [ "laser-turrets" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.1",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-damage.png",
+  "name": "laser-turret-damage-2",
+  "order": "e-n-b",
+  "prerequisites": [ "laser-turret-damage-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-damage.png",
+  "name": "laser-turret-damage-3",
+  "order": "e-n-c",
+  "prerequisites": [ "laser-turret-damage-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-damage.png",
+  "name": "laser-turret-damage-4",
+  "order": "e-n-d",
+  "prerequisites": [ "laser-turret-damage-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-damage.png",
+  "name": "laser-turret-damage-5",
+  "order": "e-n-e",
+  "prerequisites": [ "laser-turret-damage-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.4",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-damage.png",
+  "name": "laser-turret-damage-6",
+  "order": "e-n-f",
+  "prerequisites": [ "laser-turret-damage-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.2",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-speed.png",
+  "name": "laser-turret-speed-1",
+  "order": "e-n-g",
+  "prerequisites": [ "laser-turrets" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.2",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-speed.png",
+  "name": "laser-turret-speed-2",
+  "order": "e-n-h",
+  "prerequisites": [ "laser-turret-speed-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-speed.png",
+  "name": "laser-turret-speed-3",
+  "order": "e-n-i",
+  "prerequisites": [ "laser-turret-speed-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-speed.png",
+  "name": "laser-turret-speed-4",
+  "order": "e-n-j",
+  "prerequisites": [ "laser-turret-speed-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-speed.png",
+  "name": "laser-turret-speed-5",
+  "order": "e-n-k",
+  "prerequisites": [ "laser-turret-speed-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "laser-turret",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/laser-turret-speed.png",
+  "name": "laser-turret-speed-6",
+  "order": "e-n-l",
+  "prerequisites": [ "laser-turret-speed-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "0.1",
+    "turret_id": "gun-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/gun-turret-damage.png",
+  "name": "gun-turret-damage-1",
+  "order": "e-o-a",
+  "prerequisites": [ "turrets" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "0.1",
+    "turret_id": "gun-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/gun-turret-damage.png",
+  "name": "gun-turret-damage-2",
+  "order": "e-o-b",
+  "prerequisites": [ "gun-turret-damage-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "0.2",
+    "turret_id": "gun-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/gun-turret-damage.png",
+  "name": "gun-turret-damage-3",
+  "order": "e-o-c",
+  "prerequisites": [ "gun-turret-damage-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "0.2",
+    "turret_id": "gun-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/gun-turret-damage.png",
+  "name": "gun-turret-damage-4",
+  "order": "e-o-d",
+  "prerequisites": [ "gun-turret-damage-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "0.2",
+    "turret_id": "gun-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/gun-turret-damage.png",
+  "name": "gun-turret-damage-5",
+  "order": "e-o-e",
+  "prerequisites": [ "gun-turret-damage-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": "0.4",
+    "turret_id": "gun-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/gun-turret-damage.png",
+  "name": "gun-turret-damage-6",
+  "order": "e-o-f",
+  "prerequisites": [ "gun-turret-damage-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "flame-thrower",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  }, {
+    "modifier": "0.2",
+    "turret_id": "flamethrower-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/flamethrower-turret-damage.png",
+  "name": "flamethrower-damage-1",
+  "order": "e-o-p-a",
+  "prerequisites": [ "military-3", "flame-thrower" ],
+  "type": "technology",
+  "unit": {
+    "count": 75,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 45
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "flame-thrower",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  }, {
+    "modifier": "0.2",
+    "turret_id": "flamethrower-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/flamethrower-turret-damage.png",
+  "name": "flamethrower-damage-2",
+  "order": "e-o-p-b",
+  "prerequisites": [ "flamethrower-damage-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 125,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 45
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "flame-thrower",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  }, {
+    "modifier": "0.2",
+    "turret_id": "flamethrower-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/flamethrower-turret-damage.png",
+  "name": "flamethrower-damage-3",
+  "order": "e-o-p-c",
+  "prerequisites": [ "flamethrower-damage-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 70
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "flame-thrower",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  }, {
+    "modifier": "0.2",
+    "turret_id": "flamethrower-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/flamethrower-turret-damage.png",
+  "name": "flamethrower-damage-4",
+  "order": "e-o-p-d",
+  "prerequisites": [ "flamethrower-damage-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 80
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "flame-thrower",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  }, {
+    "modifier": "0.2",
+    "turret_id": "flamethrower-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/flamethrower-turret-damage.png",
+  "name": "flamethrower-damage-5",
+  "order": "e-o-p-e",
+  "prerequisites": [ "flamethrower-damage-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 400,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 80
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "flame-thrower",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  }, {
+    "modifier": "0.2",
+    "turret_id": "flamethrower-turret",
+    "type": "turret-attack"
+  } ],
+  "icon": "__base__/graphics/technology/flamethrower-turret-damage.png",
+  "name": "flamethrower-damage-6",
+  "order": "e-o-p-f",
+  "prerequisites": [ "flamethrower-damage-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 500,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 80
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "energy-shield-equipment",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/energy-shield-equipment.png",
+  "name": "energy-shield-equipment",
+  "order": "g-e-a",
+  "prerequisites": [ "armor-making-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "night-vision-equipment",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/night-vision-equipment.png",
+  "name": "night-vision-equipment",
+  "order": "g-g",
+  "prerequisites": [ "armor-making-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "energy-shield-mk2-equipment",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/energy-shield-mk2-equipment.png",
+  "name": "energy-shield-mk2-equipment",
+  "order": "g-e-b",
+  "prerequisites": [ "energy-shield-equipment" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "battery-equipment",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/battery-equipment.png",
+  "name": "battery-equipment",
+  "order": "g-i-a",
+  "prerequisites": [ "armor-making-3", "battery" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "battery-mk2-equipment",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/battery-mk2-equipment.png",
+  "name": "battery-mk2-equipment",
+  "order": "g-i-b",
+  "prerequisites": [ "battery-equipment" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "solar-panel-equipment",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/solar-panel-equipment.png",
+  "name": "solar-panel-equipment",
+  "order": "g-k",
+  "prerequisites": [ "armor-making-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 15
+  }
+}, {
+  "effects": [ {
+    "recipe": "personal-laser-defense-equipment",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/personal-laser-defense-equipment.png",
+  "name": "personal-laser-defense-equipment",
+  "order": "g-m",
+  "prerequisites": [ "armor-making-3", "laser-turrets" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "discharge-defense-equipment",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "discharge-defense-remote",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/discharge-defense-equipment.png",
+  "name": "discharge-defense-equipment",
+  "order": "g-o",
+  "prerequisites": [ "armor-making-3", "alien-technology", "laser-turrets" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "fusion-reactor-equipment",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/fusion-reactor-equipment.png",
+  "name": "fusion-reactor-equipment",
+  "order": "g-l",
+  "prerequisites": [ "solar-panel-equipment" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "exoskeleton-equipment",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/exoskeleton-equipment.png",
+  "name": "exoskeleton-equipment",
+  "order": "g-h",
+  "prerequisites": [ "solar-panel-equipment", "electric-engine" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "personal-roboport-equipment",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/personal-roboport-equipment.png",
+  "name": "personal-roboport-equipment",
+  "order": "c-k-d-zz",
+  "prerequisites": [ "construction-robotics", "solar-panel-equipment" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.1",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-damage.png",
+  "name": "bullet-damage-1",
+  "order": "e-l-a",
+  "prerequisites": [ "military" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.1",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-damage.png",
+  "name": "bullet-damage-2",
+  "order": "e-l-b",
+  "prerequisites": [ "bullet-damage-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-damage.png",
+  "name": "bullet-damage-3",
+  "order": "e-l-c",
+  "prerequisites": [ "bullet-damage-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-damage.png",
+  "name": "bullet-damage-4",
+  "order": "e-l-d",
+  "prerequisites": [ "bullet-damage-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-damage.png",
+  "name": "bullet-damage-5",
+  "order": "e-l-e",
+  "prerequisites": [ "bullet-damage-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.4",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-damage.png",
+  "name": "bullet-damage-6",
+  "order": "e-l-f",
+  "prerequisites": [ "bullet-damage-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.2",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-speed.png",
+  "name": "bullet-speed-1",
+  "order": "e-l-g",
+  "prerequisites": [ "military" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.2",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-speed.png",
+  "name": "bullet-speed-2",
+  "order": "e-l-h",
+  "prerequisites": [ "bullet-speed-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-speed.png",
+  "name": "bullet-speed-3",
+  "order": "e-l-i",
+  "prerequisites": [ "bullet-speed-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-speed.png",
+  "name": "bullet-speed-4",
+  "order": "e-l-j",
+  "prerequisites": [ "bullet-speed-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-speed.png",
+  "name": "bullet-speed-5",
+  "order": "e-l-k",
+  "prerequisites": [ "bullet-speed-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "bullet",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/bullet-speed.png",
+  "name": "bullet-speed-6",
+  "order": "e-l-l",
+  "prerequisites": [ "bullet-speed-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "storage-tank",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "small-pump",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "empty-barrel",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "fill-crude-oil-barrel",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "empty-crude-oil-barrel",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/fluid-handling.png",
+  "name": "fluid-handling",
+  "order": "d-a-a",
+  "prerequisites": [ "oil-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 75,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "pumpjack",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "oil-refinery",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "chemical-plant",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "basic-oil-processing",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "solid-fuel-from-light-oil",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "solid-fuel-from-petroleum-gas",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "solid-fuel-from-heavy-oil",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "lubricant",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/oil-gathering.png",
+  "name": "oil-processing",
+  "order": "d-a",
+  "prerequisites": [ "steel-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "advanced-oil-processing",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "heavy-oil-cracking",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "light-oil-cracking",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/oil-processing.png",
+  "name": "advanced-oil-processing",
+  "order": "d-b",
+  "prerequisites": [ "oil-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 75,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "sulfuric-acid",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "sulfur",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/sulfur-processing.png",
+  "name": "sulfur-processing",
+  "order": "d-c",
+  "prerequisites": [ "oil-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "plastic-bar",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/plastics.png",
+  "name": "plastics",
+  "order": "d-d",
+  "prerequisites": [ "oil-processing" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "icon": "__base__/graphics/technology/module.png",
+  "name": "modules",
+  "order": "i-a",
+  "prerequisites": [ "advanced-electronics" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "speed-module",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/speed-module.png",
+  "name": "speed-module",
+  "order": "i-c-a",
+  "prerequisites": [ "modules" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "speed-module-2",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/speed-module.png",
+  "name": "speed-module-2",
+  "order": "i-c-b",
+  "prerequisites": [ "speed-module" ],
+  "type": "technology",
+  "unit": {
+    "count": 75,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "speed-module-3",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/speed-module.png",
+  "name": "speed-module-3",
+  "order": "i-c-c",
+  "prerequisites": [ "speed-module-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "productivity-module",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/productivity-module.png",
+  "name": "productivity-module",
+  "order": "i-e-a",
+  "prerequisites": [ "modules" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "productivity-module-2",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/productivity-module.png",
+  "name": "productivity-module-2",
+  "order": "i-e-b",
+  "prerequisites": [ "productivity-module" ],
+  "type": "technology",
+  "unit": {
+    "count": 75,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "productivity-module-3",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/productivity-module.png",
+  "name": "productivity-module-3",
+  "order": "i-e-c",
+  "prerequisites": [ "productivity-module-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "effectivity-module",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/effectivity-module.png",
+  "name": "effectivity-module",
+  "order": "i-g-a",
+  "prerequisites": [ "modules" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "effectivity-module-2",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/effectivity-module.png",
+  "name": "effectivity-module-2",
+  "order": "i-g-b",
+  "prerequisites": [ "effectivity-module" ],
+  "type": "technology",
+  "unit": {
+    "count": 75,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "effectivity-module-3",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/effectivity-module.png",
+  "name": "effectivity-module-3",
+  "order": "i-g-c",
+  "prerequisites": [ "effectivity-module-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "defender-capsule",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/combat-robotics.png",
+  "name": "combat-robotics",
+  "order": "e-p-a",
+  "prerequisites": [ "military-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "distractor-capsule",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/combat-robotics.png",
+  "name": "combat-robotics-2",
+  "order": "e-p-b-a",
+  "prerequisites": [ "combat-robotics", "military-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "recipe": "destroyer-capsule",
+    "type": "unlock-recipe"
+  } ],
+  "icon": "__base__/graphics/technology/combat-robotics.png",
+  "name": "combat-robotics-3",
+  "order": "e-p-b-b",
+  "prerequisites": [ "combat-robotics-2", "speed-module" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  }
+}, {
+  "effects": [ {
+    "ammo_category": "combat-robot-laser",
+    "modifier": "0.1",
+    "type": "ammo-damage"
+  }, {
+    "ammo_category": "combat-robot-beam",
+    "modifier": "0.1",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/combat-robot-damage.png",
+  "name": "combat-robot-damage-1",
+  "order": "e-p-c",
+  "prerequisites": [ "combat-robotics" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "combat-robot-laser",
+    "modifier": "0.15",
+    "type": "ammo-damage"
+  }, {
+    "ammo_category": "combat-robot-beam",
+    "modifier": "0.15",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/combat-robot-damage.png",
+  "name": "combat-robot-damage-2",
+  "order": "e-p-d",
+  "prerequisites": [ "combat-robot-damage-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "combat-robot-laser",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  }, {
+    "ammo_category": "combat-robot-beam",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/combat-robot-damage.png",
+  "name": "combat-robot-damage-3",
+  "order": "e-p-e",
+  "prerequisites": [ "combat-robot-damage-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 2 ], [ "science-pack-2", 2 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "combat-robot-laser",
+    "modifier": "0.25",
+    "type": "ammo-damage"
+  }, {
+    "ammo_category": "combat-robot-beam",
+    "modifier": "0.25",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/combat-robot-damage.png",
+  "name": "combat-robot-damage-4",
+  "order": "e-p-f",
+  "prerequisites": [ "combat-robot-damage-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 2 ], [ "science-pack-2", 2 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "combat-robot-laser",
+    "modifier": "0.3",
+    "type": "ammo-damage"
+  }, {
+    "ammo_category": "combat-robot-beam",
+    "modifier": "0.3",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/combat-robot-damage.png",
+  "name": "combat-robot-damage-5",
+  "order": "e-p-g",
+  "prerequisites": [ "combat-robot-damage-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 2 ], [ "science-pack-2", 2 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "rocket",
+    "modifier": "0.1",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-damage.png",
+  "name": "rocket-damage-1",
+  "order": "e-j-a",
+  "prerequisites": [ "alien-technology" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "rocket",
+    "modifier": "0.1",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-damage.png",
+  "name": "rocket-damage-2",
+  "order": "e-j-b",
+  "prerequisites": [ "rocket-damage-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "rocket",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-damage.png",
+  "name": "rocket-damage-3",
+  "order": "e-j-c",
+  "prerequisites": [ "rocket-damage-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "rocket",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-damage.png",
+  "name": "rocket-damage-4",
+  "order": "e-j-d",
+  "prerequisites": [ "rocket-damage-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "rocket",
+    "modifier": "0.2",
+    "type": "ammo-damage"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-damage.png",
+  "name": "rocket-damage-5",
+  "order": "e-j-e",
+  "prerequisites": [ "rocket-damage-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "rocket",
+    "modifier": "0.2",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-speed.png",
+  "name": "rocket-speed-1",
+  "order": "e-j-f",
+  "prerequisites": [ "alien-technology" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "rocket",
+    "modifier": "0.2",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-speed.png",
+  "name": "rocket-speed-2",
+  "order": "e-j-g",
+  "prerequisites": [ "rocket-speed-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "rocket",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-speed.png",
+  "name": "rocket-speed-3",
+  "order": "e-j-h",
+  "prerequisites": [ "rocket-speed-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "rocket",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-speed.png",
+  "name": "rocket-speed-4",
+  "order": "e-j-i",
+  "prerequisites": [ "rocket-speed-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "ammo_category": "rocket",
+    "modifier": "0.3",
+    "type": "gun-speed"
+  } ],
+  "icon": "__base__/graphics/technology/rocket-speed.png",
+  "name": "rocket-speed-5",
+  "order": "e-j-j",
+  "prerequisites": [ "rocket-speed-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "alien-science-pack", 1 ], [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 60
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 1,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-1",
+  "order": "e-p-b-c",
+  "prerequisites": [ "combat-robotics" ],
+  "type": "technology",
+  "unit": {
+    "count": 50,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 1,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-2",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 100,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 2,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-3",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 2,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-4",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 2,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-5",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-6",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-7",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-6" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-8",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-7", "combat-robotics-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 400,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-9",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-8" ],
+  "type": "technology",
+  "unit": {
+    "count": 500,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 5,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-10",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-9" ],
+  "type": "technology",
+  "unit": {
+    "count": 600,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 10,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-11",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-10" ],
+  "type": "technology",
+  "unit": {
+    "count": 800,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 10,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-12",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-11" ],
+  "type": "technology",
+  "unit": {
+    "count": 1000,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 10,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-13",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-12" ],
+  "type": "technology",
+  "unit": {
+    "count": 1200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 10,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-14",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-13" ],
+  "type": "technology",
+  "unit": {
+    "count": 1400,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 10,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-15",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-14" ],
+  "type": "technology",
+  "unit": {
+    "count": 1600,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 10,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-16",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-15" ],
+  "type": "technology",
+  "unit": {
+    "count": 1800,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 10,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-17",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-16" ],
+  "type": "technology",
+  "unit": {
+    "count": 2000,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 10,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-18",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-17" ],
+  "type": "technology",
+  "unit": {
+    "count": 2200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 10,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-19",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-18" ],
+  "type": "technology",
+  "unit": {
+    "count": 2400,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 10,
+    "type": "maximum-following-robots-count"
+  } ],
+  "icon": "__base__/graphics/technology/follower-robots.png",
+  "name": "follower-robot-count-20",
+  "order": "e-p-b-c",
+  "prerequisites": [ "follower-robot-count-19" ],
+  "type": "technology",
+  "unit": {
+    "count": 2600,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "recipe": "stack-inserter",
+    "type": "unlock-recipe"
+  }, {
+    "recipe": "stack-filter-inserter",
+    "type": "unlock-recipe"
+  }, {
+    "modifier": 1,
+    "type": "stack-inserter-capacity-bonus"
+  } ],
+  "icon": "__base__/graphics/technology/stack-inserter.png",
+  "name": "stack-inserter",
+  "order": "c-o-a",
+  "prerequisites": [ "logistics-2", "advanced-electronics" ],
+  "type": "technology",
+  "unit": {
+    "count": 150,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 1,
+    "type": "stack-inserter-capacity-bonus"
+  } ],
+  "icon": "__base__/graphics/technology/inserter-capacity.png",
+  "name": "inserter-capacity-bonus-1",
+  "order": "c-o-b",
+  "prerequisites": [ "stack-inserter" ],
+  "type": "technology",
+  "unit": {
+    "count": 200,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 1,
+    "type": "inserter-stack-size-bonus"
+  }, {
+    "modifier": 1,
+    "type": "stack-inserter-capacity-bonus"
+  } ],
+  "icon": "__base__/graphics/technology/inserter-capacity.png",
+  "name": "inserter-capacity-bonus-2",
+  "order": "c-o-c",
+  "prerequisites": [ "inserter-capacity-bonus-1" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 1,
+    "type": "stack-inserter-capacity-bonus"
+  } ],
+  "icon": "__base__/graphics/technology/inserter-capacity.png",
+  "name": "inserter-capacity-bonus-3",
+  "order": "c-o-d",
+  "prerequisites": [ "inserter-capacity-bonus-2" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "science-pack-1", 1 ], [ "science-pack-2", 1 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 1,
+    "type": "stack-inserter-capacity-bonus"
+  } ],
+  "icon": "__base__/graphics/technology/inserter-capacity.png",
+  "name": "inserter-capacity-bonus-4",
+  "order": "c-o-e",
+  "prerequisites": [ "inserter-capacity-bonus-3" ],
+  "type": "technology",
+  "unit": {
+    "count": 250,
+    "ingredients": [ [ "science-pack-1", 2 ], [ "science-pack-2", 2 ], [ "science-pack-3", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 2,
+    "type": "stack-inserter-capacity-bonus"
+  } ],
+  "icon": "__base__/graphics/technology/inserter-capacity.png",
+  "name": "inserter-capacity-bonus-5",
+  "order": "c-o-f",
+  "prerequisites": [ "inserter-capacity-bonus-4" ],
+  "type": "technology",
+  "unit": {
+    "count": 300,
+    "ingredients": [ [ "science-pack-1", 2 ], [ "science-pack-2", 2 ], [ "science-pack-3", 2 ], [ "alien-science-pack", 1 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 2,
+    "type": "stack-inserter-capacity-bonus"
+  } ],
+  "icon": "__base__/graphics/technology/inserter-capacity.png",
+  "name": "inserter-capacity-bonus-6",
+  "order": "c-o-g",
+  "prerequisites": [ "inserter-capacity-bonus-5" ],
+  "type": "technology",
+  "unit": {
+    "count": 400,
+    "ingredients": [ [ "science-pack-1", 2 ], [ "science-pack-2", 2 ], [ "science-pack-3", 2 ], [ "alien-science-pack", 2 ] ],
+    "time": 30
+  },
+  "upgrade": true
+}, {
+  "effects": [ {
+    "modifier": 1,
+    "type": "inserter-stack-size-bonus"
+  }, {
+    "modifier": 2,
+    "type": "stack-inserter-capacity-bonus"
+  } ],
+  "icon": "__base__/graphics/technology/inserter-capacity.png",
+  "name": "inserter-capacity-bonus-7",
+  "order": "c-o-h",
+  "prerequisites": [ "inserter-capacity-bonus-6" ],
+  "type": "technology",
+  "unit": {
+    "count": 600,
+    "ingredients": [ [ "science-pack-1", 4 ], [ "science-pack-2", 4 ], [ "science-pack-3", 3 ], [ "alien-science-pack", 2 ] ],
+    "time": 30
+  },
+  "upgrade": true
+} ]

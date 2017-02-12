@@ -1,0 +1,3 @@
+# Derive some data from the Factorio game files.
+lua lua2json-tech.lua technology inserter > technology.json
+lua lua2json-recipes.lua recipe demo-recipe demo-furnace-recipe inserter module fluid-recipe > recipe.json

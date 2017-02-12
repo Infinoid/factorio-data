@@ -1,0 +1,107 @@
+There is some JSON data which gets derived from Factorio game files; 
+see DATA-README for the commands used to do that.  They work on Linux,
+and they make assumptions about where steam installs games on Linux;
+those paths will need to be adapted slightly to work on Windows.
+
+Once the data is ready, there are two "frontend" scripts: prod.pl and tech.pl.
+
+tech.pl lists the set of required technologies you must research to get
+to a certain point.  It also calculates the number of science packs (of
+each type) consumed during this resource process.
+
+prod.pl lists the production chain required to achieve a certain amount
+of production of the given item.
+
+Tech.pl example:
+
+$ perl tech.pl 
+prerequisite advanced-electronics-2
+prerequisite advanced-electronics
+prerequisite electronics
+prerequisite automation
+prerequisite plastics
+prerequisite oil-processing
+prerequisite steel-processing
+prerequisite rocket-speed-5
+prerequisite rocket-speed-4
+prerequisite rocket-speed-3
+prerequisite rocket-speed-2
+prerequisite rocket-speed-1
+prerequisite alien-technology
+prerequisite rocketry
+prerequisite electronics
+prerequisite flammables
+prerequisite oil-processing
+prerequisite explosives
+prerequisite sulfur-processing
+prerequisite oil-processing
+prerequisite speed-module-3
+prerequisite speed-module-2
+prerequisite speed-module
+prerequisite modules
+prerequisite advanced-electronics
+prerequisite productivity-module-3
+prerequisite productivity-module-2
+prerequisite productivity-module
+prerequisite modules
+---
+alien-science-pack: 2600
+science-pack-1: 4370
+science-pack-2: 4280
+science-pack-3: 2300
+
+By default, it lists the requirements for researching the rocket silo
+research goal.
+
+If you wanted to list the requirements for researching the tank
+(military vehicle), you would run:
+
+$ perl tech.pl tanks
+
+
+
+Prod.pl example:
+
+$ perl prod.pl                 
+---
+advanced-circuit: 2
+copper-cable: 80
+copper-ore: 80
+copper-plate: 80
+electronic-circuit: 24
+iron-ore: 24
+iron-plate: 24
+plastic-bar: 4
+processing-unit: 1
+sulfuric-acid: 0.5
+---
+advanced-circuit: 16
+copper-cable: 40
+copper-ore: 40
+copper-plate: 280
+electronic-circuit: 12
+iron-ore: 12
+iron-plate: 84
+plastic-bar: 2
+processing-unit: 15
+sulfuric-acid: 0.25
+
+This contains two listings.  The first listing is how much of each
+resource must be produced, in units per second.  The second listing is
+how many factories (or chemical plants, furnaces, etc) of each type are
+required to maintain that level of production (in the absense of any
+other consumers for the intermediate resources).
+
+By default, it lists the requirements for producing one processing unit
+(blue circuit) per second.
+
+If you want to calculate a production chain which creates 10 logistics
+robots per second, you would run:
+
+$ perl prod.pl logistic-robot 10
+
+If you want to calculate a production chain which creates a rocket silo
+once every 1000 seconds, you would run:
+
+$ perl prod.pl rocket-silo 0.001
+

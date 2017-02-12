@@ -1,0 +1,117 @@
+Map exchange string:
+>>>AAAOABYAAAABBQYAAAAEAAAAY29hbAIFBAoAAABjb3BwZXItb3Jl
+AgUECQAAAGNydWRlLW9pbAIFBAoAAABlbmVteS1iYXNlAgIDCAAAAGl
+yb24tb3JlAgUFBQAAAHN0b25lAgUFOAMAAICEHgCAhB4AAwCOUBdy<<
+<
+
+*** burner phase
+iron: 4 burner drills, 4 stone furnaces
+stone: 1 burner drill
+copper: 1 burner drill, 1 stone furnace
+coal: 4 burner drills
+
+produce 10 steam engines, 14 burner inserters, 14 boilers, 4 pipes to ground, 10 pipes, 4 electric mining drills, 1 offshore pump, 50 transport belts, 16 small electric poles
+
+*** power phase
+coal: 6 electric mining drills
+iron: 8 electric mining drills, 14 stone furnaces
+copper: 4 electric mining drills, 7 stone furnaces
+
+research: 30 labs
+
+factories:
+  5 red science packs
+  6 green science packs
+  2 gear wheels
+  6 copper cable
+  4 green circuits
+  1 grey factories
+  1 blue factories
+  1 transport belts
+  1 underground belts
+  1 belt splitters
+  1 inserter
+  1 long inserter
+  1 fast inserter
+  1 filter inserter
+  1 pipe
+  1 underground pipe
+
+
+*** oil phase
+triple iron production
+triple copper production
+triple power production
+steel: 16 stone furnaces
+oil: 8 pumpjacks, 2 oil refineries, 4 chemical plants
+
+blue science:
+  add 6 copper cable
+  add 4 green circuits
+  6 red circuits
+  2 batteries
+  2 plastic bars
+  8 blue science
+
+general:
+  1 turrets
+  1 walls
+  1 stone brick
+  1 steel furnace
+  1 concrete
+
+put up some active base defenses
+
+*** second oil phase
+add 1 refinery
+switch to second oil refining recipe
+1 chemical plant cracking heavy → light
+4 chemical plants cracking light → gas
+1 chemical plant: lubricant
+add 1 plastic
+
+science:
+  1 purple science
+
+general:
+  1 fast transport belts
+  1 fast underground belts
+  1 fast belt splitters
+
+make some decent weapons/ammo/armor, go hunting to obtain alien artifacts
+
+
+*** module phase
+double steel production
+increase iron production as needed
+increase copper production as needed
+
+blue circuits:
+  add 3 copper cable
+  add 2 green circuits
+  add 3 red circuits
+  3 blue circuits
+
+electric engines:
+  1 gear wheels
+  1 pipe
+  4 engine unit
+  4 electric engine unit
+
+speed modules:
+  add 12 copper cable
+  add 8 green circuits
+  add 40 red circuits
+  add 2 plastic
+  15 speed modules
+
+general:
+  1 yellow factories
+
+*** rocket phase
+
+rocket silo
+low-density structures
+rocket fuel
+rocket control units
+satellite
